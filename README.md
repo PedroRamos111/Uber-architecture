@@ -1,7 +1,7 @@
 # Uber-architecture
 ## Introdução
 
-O aplicativo Uber é um sistema complexo e de alta escala, fundamental para o funcionamento da plataforma. Este trabalho prático visa analisar a arquitetura de software deste aplicativo, explorando suas tecnologias, evolução, requisitos e desafios.
+O aplicativo Uber é um sistema complexo e de alta escala. Este trabalho prático visa analisar a arquitetura de software deste aplicativo, explorando suas tecnologias, evolução, requisitos e desafios.
 
 ## Caracterização do Sistema
 
