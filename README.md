@@ -43,6 +43,24 @@ O aplicativo Uber é um sistema complexo e de alta escala. Este trabalho prátic
 | **Usuários no Brasil**    | 30 milhões\*   |
 | **Viagens/entregas por dia no mundo** | 26 milhões    |
 
+---
+
+## Histórico da arquitetura
+### MVC
+- A primeira base de código da uber seguia o padrão MVC. No entanto , dois grandes problemas levaram a equipe de desenvolvimento da Uber a abandona-lo:
+    01. Classes de Controller muito grandes tornando dificil leitura e modificação;
+    02. Dificuldade em testar as classes que cresciam muito;
+Resumidamente, o padrão arquitetural não era escalável.
+### VIPER
+- Como alternativa ao MVC, os desenvolvedores da Uber voltaram sua atenção para o VIPER que permitia a adoção de uma arquitetura limpara para iOS e trazia maior capacidade de abstração. Contudo, essa arquitetura também apresentava desvantagens:
+    01. Especifica para iOS
+    02. Estados orientados por visualizações
+    03. Dificuldade em implementar nós apenas para visão lógica ou lógica de visualização.
+### Riblets
+- Padrão arquitetural que os desenvolvedores apresentaram para englobar as vantagens do VIPER e contornar suas desvantagens.
+
+---
+
 ## Considerações
 Considerando a necessidade de alta confiabilidade, escalabilidade e performance, a arquitetura do Uber provavelmente utiliza tecnologias como microsserviços, computação em nuvem, cache distribuído e sistemas de mensageria para garantir que o serviço esteja sempre disponível, responsivo e capaz de atender às demandas de milhões de usuários em todo o mundo.
 
