@@ -59,6 +59,8 @@ Resumidamente, o padrão arquitetural não era escalável.
 ### Riblets
 - Padrão arquitetural que os desenvolvedores apresentaram para englobar as vantagens do VIPER e contornar suas desvantagens.
 
+![Riblets](Arquitetura/image.png "Visão geral de um app construido com Riblets")
+
 ---
 
 ## Considerações
