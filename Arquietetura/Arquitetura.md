@@ -35,6 +35,15 @@ A solução final foi o desenvolvimento do Riblets, um padrão de arquitetura pr
 
 ![alt text](image-1.png)
 
+### Tecnologias
+
+*   **Back-End:** Python que é usado na aplicação da lógica de negócios e algoritmos da Uber, Java que é usado para componentes críticos do backend e o Go que lida com grande volume de requisições da uber.
+*   **Frontend:** Swift que é a linguagem principal para desenvolvimento da parte iOS e Kotlin que é a linguagem moderna usada para o desenvolvimento da aplicação androind ambos usam o framework React Native. 
+*   **Banco de Dados:** PostgreSQL é um banco de dados relacional usado para armazenar informações de usuários e viagens e Cassandra um banco de dados NoSQL distribuído usado para armazenar dados de geolocalização e eventos em tempo real.
+*   **APIs de GPS:** Google Maps é a API de mapas mais popular do mundo, oferecendo recursos de geocodificação, roteamento e visualização de mapa e o Mapbox que é uma alternativa ao Google Maps, com mais flexibilidade de personalização e recursos avançados de visualização de dados.
+
+
+
 ## Conclusão
 
 A adoção da arquitetura Riblets permitiu que a Uber superasse os desafios de escalabilidade e complexidade do aplicativo para motoristas. A modularidade, a separação de responsabilidades e a orientação pela lógica de negócio são os pilares dessa arquitetura inovadora, que se mostrou fundamental para o sucesso da plataforma. A experiência da Uber com o Riblets demonstra a importância de escolher a arquitetura certa para atender às necessidades específicas de cada aplicação, especialmente em ambientes complexos e em constante evolução.
@@ -43,3 +52,5 @@ A adoção da arquitetura Riblets permitiu que a Uber superasse os desafios de e
 
 *   **Engineering the Architecture Behind Uber's New Rider App:** https://www.uber.com/blog/new-rider-app-architecture/
 *   **Engenharia da arquitetura por trás do novo aplicativo do motorista Uber:** https://imasters.com.br/android/engenharia-da-arquitetura-por-tras-do-novo-aplicativo-do-motorista-uber
+*   **Architecting Uber’s New Driver App in RIBs:** [https://www.uber.com/blog/new-rider-app-architecture/](https://www.uber.com/en-BR/blog/driver-app-ribs-architecture/)
+*   **Github do Ribs:** [https://imasters.com.br/android/engenharia-da-arquitetura-por-tras-do-novo-aplicativo-do-motorista-uber](https://github.com/uber/RIBs)
